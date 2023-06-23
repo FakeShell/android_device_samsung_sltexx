@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+    <remote name="fakeshell"
+            fetch="https://github.com/fakeshell"
+            revision="halium-7.1" />
+    
+    <project path="device/samsung/sltexx" name="android_device_samsung_sltexx" remote="fakeshell" />
+
+    <project path="hardware/samsung" name="Halium/android_hardware_samsung" remote="hal" />
+
+    <project path="kernel/samsung/sltexx" name="android_kernel_samsung_sltexx" remote="fakeshell" />
+
+    <project path="vendor/samsung" name="proprietary_vendor_samsung" remote="them" />
+
+    <project name="android_external_stlport" path="external/stlport" remote="los" />
+
+    <project name="android_hardware_samsung_slsi-cm_exynos" path="hardware/samsung_slsi-cm/exynos" remote="los" />
+
+    <project name="android_hardware_samsung_slsi-cm_exynos5" path="hardware/samsung_slsi-cm/exynos5" remote="los" />
+
+    <project name="android_hardware_samsung_slsi-cm_openmax" path="hardware/samsung_slsi-cm/openmax" remote="los" />
+
+    <project name="FakeShell-old/android_hardware_samsung_slsi_exynos5430" path="hardware/samsung_slsi-cm/exynos5430" remote="hal" />
+
+    <project name="android_device_generic_goldfish" path="device/generic/goldfish" remote="los" />
+
+    <project name="android_external_curl" path="external/curl" remote="los" />
+</manifest>
